@@ -4,5 +4,5 @@ title: Pokus časem
 ---
 
 <div class="cas">
-	{{ page.date.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long', day: 'numeric' })}}
+	{{ page.date | czDateTime }}
 </div>
